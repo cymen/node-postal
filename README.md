@@ -1,7 +1,7 @@
 node-postal
 -----------
 
-[![Build Status](https://travis-ci.org/cymen/node-postal.svg?branch=master)](https://travis-ci.org/cymen/node-postal) [![npm](https://img.shields.io/npm/v/node-postal.svg)](https://www.npmjs.com/package/node-postal)
+[![Build Status](https://travis-ci.org/cymen/node-postal.svg?branch=master)](https://travis-ci.org/cymen/node-postal) [![npm](https://img.shields.io/npm/v/@cymen/node-postal.svg)](https://www.npmjs.com/package/@cymen/node-postal)
 
 These are the NodeJS bindings to [libpostal](https://github.com/cymen/libpostal), a fast, multilingual NLP library for parsing/normalizing physical addresses. libpostal is written in C because virtually every other language can bind to C.
 
