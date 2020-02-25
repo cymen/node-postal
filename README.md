@@ -5,7 +5,7 @@ node-postal
 
 These are the NodeJS bindings to [libpostal](https://github.com/cymen/libpostal), a fast, multilingual NLP library for parsing/normalizing physical addresses. libpostal is written in C because virtually every other language can bind to C.
 
-**@cymen/node-postal (npm @cymen/node-postal) is a hopefully temporary fork of openvenus/node-postal (npm node-postal).** The fork was created in order to get the pending PRs merged for Node.js v12 compatibility.
+**@cymen/node-postal (npm @cymen/node-postal) is a hopefully temporary fork of openvenues/node-postal (npm node-postal).** The fork was created in order to get the pending PRs merged for Node.js v12 compatibility.
 
 Usage
 -----
