@@ -98,7 +98,7 @@ void init(v8::Local<v8::Object> exports) {
         return;
     }
 
-     Nan::Set(exports, Nan::New("parse_address").ToLocalChecked(), Nan::GetFunction(Nan::New<v8::FunctionTemplate>(ParseAddress)).ToLocalChecked());
+    Nan::Set(exports, Nan::New("parse_address").ToLocalChecked(), Nan::GetFunction(Nan::New<v8::FunctionTemplate>(ParseAddress)).ToLocalChecked());
 
     node::AtExit(cleanup);
 }
