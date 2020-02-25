@@ -1,9 +1,9 @@
 node-postal
 -----------
 
-[![Build Status](https://travis-ci.org/openvenues/node-postal.svg?branch=master)](https://travis-ci.org/openvenues/node-postal) [![npm](https://img.shields.io/npm/v/node-postal.svg)](https://www.npmjs.com/package/node-postal)
+[![Build Status](https://travis-ci.org/cymen/node-postal.svg?branch=master)](https://travis-ci.org/cymen/node-postal) [![npm](https://img.shields.io/npm/v/node-postal.svg)](https://www.npmjs.com/package/node-postal)
 
-These are the NodeJS bindings to [libpostal](https://github.com/openvenues/libpostal), a fast, multilingual NLP library for parsing/normalizing physical addresses. libpostal is written in C because virtually every other language can bind to C.
+These are the NodeJS bindings to [libpostal](https://github.com/cymen/libpostal), a fast, multilingual NLP library for parsing/normalizing physical addresses. libpostal is written in C because virtually every other language can bind to C.
 
 Usage
 -----
@@ -41,7 +41,7 @@ brew install curl autoconf automake libtool pkg-config
 **Installing libpostal**
 
 ```
-git clone https://github.com/openvenues/libpostal
+git clone https://github.com/cymen/libpostal
 cd libpostal
 ./bootstrap.sh
 ./configure --datadir=[...some dir with a few GB of space...]
@@ -71,7 +71,7 @@ First make sure you have:
 **Installing the Node bindings**
 
 ```
-npm install openvenues/node-postal
+npm install cymen/node-postal
 ```
 
 Compatibility
@@ -92,7 +92,7 @@ npm test
 
 Troubleshooting
 ---------------
-**Installing [libpostal](https://github.com/openvenues/libpostal):**
+**Installing [libpostal](https://github.com/cymen/libpostal):**
 node-postal is a thin wrapper around libpostal, which is written in C. Installing node-postal with npm will not install libpostal as a dependency. The install steps described above will install it in standard locations for your OS. For OS X and Linux, that's `/usr/local/include` and `/usr/local/lib`. node-postal will look in these locations for the C libraries. If you have problems installing node-postal, check there for recently installed libpostal libraries.
 
 **Downloading Large Files**

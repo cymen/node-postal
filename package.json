@@ -1,7 +1,6 @@
 {
-    "name": "node-postal",
-    "version": "1.0.0",
-    "author": "Al Barrentine (@thatdatabaseguy)",
+    "name": "@cymen/node-postal",
+    "version": "2.0.0",
     "description": "International address parsing/normalization at C speed",
     "main": "index.js",
     "license": "MIT",
@@ -17,10 +16,10 @@
         "nlp",
         "c"
     ],
-    "homepage": "https://github.com/openvenues/node-postal",
+    "homepage": "https://github.com/cymen/node-postal",
     "repository": {
         "type": "git",
-        "url": "https://github.com/openvenues/node-postal.git"
+        "url": "https://github.com/cymen/node-postal.git"
     },
     "dependencies": {
         "bindings": "^1.2.1",
