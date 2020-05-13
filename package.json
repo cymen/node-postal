@@ -1,6 +1,6 @@
 {
     "name": "@cymen/node-postal",
-    "version": "2.0.3",
+    "version": "2.0.4",
     "description": "International address parsing/normalization at C speed",
     "main": "index.js",
     "license": "MIT",
