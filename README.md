@@ -73,7 +73,7 @@ First make sure you have:
 **Installing the Node bindings**
 
 ```
-npm install cymen/node-postal
+npm install @cymen/node-postal
 ```
 
 Compatibility
